@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tech-introduction"
+version = "0.1.0"
+description = "technical introduction for new in knml"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+gradio = "^5.5.0"
+transformers = "^4.46.2"
+torch = "^2.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

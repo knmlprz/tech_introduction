@@ -3,7 +3,7 @@ import os
 if not os.path.exists('./output'):
     os.makedirs('./output')
 
-text = "Lubie pociągi"
+text = "Lubie pociągi i tramwaje"
 combine_text = ""
 for i in range(2137):
     combine_text += f"{i} {text} \n"

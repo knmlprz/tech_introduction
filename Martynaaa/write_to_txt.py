@@ -3,7 +3,7 @@ import os
 if not os.path.exists('./output'):
     os.makedirs('./output')
 
-text = "Miauuuuuu"
+text = "Miauuuu"
 combine_text = ""
 for i in range(37):
     combine_text += f"{i} {text} \n"

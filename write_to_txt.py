@@ -1,3 +1,8 @@
+import os
+
+if not os.path.exists('./output'):
+    os.makedirs('./output')
+
 text = "Daniel przeszedł szkolenie techniczne"
 combine_text = ""
 for i in range(2137):
